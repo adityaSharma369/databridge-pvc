@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolume
 metadata:
-  name: thumbnail-uploads
+  name: databridge-uploads
 spec:
   capacity:
     storage: 10Gi
@@ -15,7 +15,7 @@ spec:
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
-  name: thumbnail-uploads
+  name: databridge-uploads
 spec:
   accessModes:
     - ReadWriteMany
